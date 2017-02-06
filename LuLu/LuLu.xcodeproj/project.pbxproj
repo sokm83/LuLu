@@ -7,76 +7,132 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		166208DC1E483E5800FD56B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166208DB1E483E5800FD56B6 /* AppDelegate.swift */; };
-		166208DE1E483E5800FD56B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166208DD1E483E5800FD56B6 /* ViewController.swift */; };
-		166208E11E483E5800FD56B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166208DF1E483E5800FD56B6 /* Main.storyboard */; };
-		166208E41E483E5800FD56B6 /* LuLu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 166208E21E483E5800FD56B6 /* LuLu.xcdatamodeld */; };
-		166208E61E483E5800FD56B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166208E51E483E5800FD56B6 /* Assets.xcassets */; };
-		166208E91E483E5800FD56B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166208E71E483E5800FD56B6 /* LaunchScreen.storyboard */; };
+		1662090A1E486C8E00FD56B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 166209091E486C8E00FD56B6 /* main.m */; };
+		1662090D1E486C8E00FD56B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1662090C1E486C8E00FD56B6 /* AppDelegate.m */; };
+		166209101E486C8E00FD56B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1662090F1E486C8E00FD56B6 /* ViewController.m */; };
+		166209131E486C8E00FD56B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166209111E486C8E00FD56B6 /* Main.storyboard */; };
+		166209161E486C8E00FD56B6 /* LuLu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 166209141E486C8E00FD56B6 /* LuLu.xcdatamodeld */; };
+		166209181E486C8E00FD56B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166209171E486C8E00FD56B6 /* Assets.xcassets */; };
+		1662091B1E486C8E00FD56B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166209191E486C8E00FD56B6 /* LaunchScreen.storyboard */; };
+		1662092B1E486CE700FD56B6 /* NaverAuth.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 166209241E486CE700FD56B6 /* NaverAuth.bundle */; };
+		1662092C1E486CE700FD56B6 /* libNaverLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 166209261E486CE700FD56B6 /* libNaverLogin.a */; };
+		1662092D1E486CE700FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1662092A1E486CE700FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		166208D81E483E5800FD56B6 /* LuLu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuLu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		166208DB1E483E5800FD56B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		166208DD1E483E5800FD56B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		166208E01E483E5800FD56B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		166208E31E483E5800FD56B6 /* LuLu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LuLu.xcdatamodel; sourceTree = "<group>"; };
-		166208E51E483E5800FD56B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		166208E81E483E5800FD56B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		166208EA1E483E5800FD56B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166209051E486C8E00FD56B6 /* LuLu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuLu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		166209091E486C8E00FD56B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1662090B1E486C8E00FD56B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1662090C1E486C8E00FD56B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1662090E1E486C8E00FD56B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1662090F1E486C8E00FD56B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		166209121E486C8E00FD56B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		166209151E486C8E00FD56B6 /* LuLu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LuLu.xcdatamodel; sourceTree = "<group>"; };
+		166209171E486C8E00FD56B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1662091A1E486C8E00FD56B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1662091C1E486C8E00FD56B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166209241E486CE700FD56B6 /* NaverAuth.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NaverAuth.bundle; sourceTree = "<group>"; };
+		166209261E486CE700FD56B6 /* libNaverLogin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNaverLogin.a; sourceTree = "<group>"; };
+		166209271E486CE700FD56B6 /* NaverThirdPartyConstantsForApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaverThirdPartyConstantsForApp.h; sourceTree = "<group>"; };
+		166209281E486CE700FD56B6 /* NaverThirdPartyLoginConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaverThirdPartyLoginConnection.h; sourceTree = "<group>"; };
+		166209291E486CE700FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLoginThirdPartyOAuth20InAppBrowserViewController.h; sourceTree = "<group>"; };
+		1662092A1E486CE700FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLoginThirdPartyOAuth20InAppBrowserViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		166208D51E483E5800FD56B6 /* Frameworks */ = {
+		166209021E486C8E00FD56B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1662092C1E486CE700FD56B6 /* libNaverLogin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		166208CF1E483E5800FD56B6 = {
+		166208FC1E486C8E00FD56B6 = {
 			isa = PBXGroup;
 			children = (
-				166208DA1E483E5800FD56B6 /* LuLu */,
-				166208D91E483E5800FD56B6 /* Products */,
+				166209221E486CE700FD56B6 /* Naver */,
+				166209071E486C8E00FD56B6 /* LuLu */,
+				166209061E486C8E00FD56B6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		166208D91E483E5800FD56B6 /* Products */ = {
+		166209061E486C8E00FD56B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				166208D81E483E5800FD56B6 /* LuLu.app */,
+				166209051E486C8E00FD56B6 /* LuLu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		166208DA1E483E5800FD56B6 /* LuLu */ = {
+		166209071E486C8E00FD56B6 /* LuLu */ = {
 			isa = PBXGroup;
 			children = (
-				166208DB1E483E5800FD56B6 /* AppDelegate.swift */,
-				166208DD1E483E5800FD56B6 /* ViewController.swift */,
-				166208DF1E483E5800FD56B6 /* Main.storyboard */,
-				166208E51E483E5800FD56B6 /* Assets.xcassets */,
-				166208E71E483E5800FD56B6 /* LaunchScreen.storyboard */,
-				166208EA1E483E5800FD56B6 /* Info.plist */,
-				166208E21E483E5800FD56B6 /* LuLu.xcdatamodeld */,
+				1662090B1E486C8E00FD56B6 /* AppDelegate.h */,
+				1662090C1E486C8E00FD56B6 /* AppDelegate.m */,
+				1662090E1E486C8E00FD56B6 /* ViewController.h */,
+				1662090F1E486C8E00FD56B6 /* ViewController.m */,
+				166209111E486C8E00FD56B6 /* Main.storyboard */,
+				166209171E486C8E00FD56B6 /* Assets.xcassets */,
+				166209191E486C8E00FD56B6 /* LaunchScreen.storyboard */,
+				1662091C1E486C8E00FD56B6 /* Info.plist */,
+				166209141E486C8E00FD56B6 /* LuLu.xcdatamodeld */,
+				166209081E486C8E00FD56B6 /* Supporting Files */,
 			);
 			path = LuLu;
+			sourceTree = "<group>";
+		};
+		166209081E486C8E00FD56B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				166209091E486C8E00FD56B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		166209221E486CE700FD56B6 /* Naver */ = {
+			isa = PBXGroup;
+			children = (
+				166209231E486CE700FD56B6 /* Resources */,
+				166209251E486CE700FD56B6 /* thirdPartyModule */,
+			);
+			name = Naver;
+			path = LuLu/Naver;
+			sourceTree = "<group>";
+		};
+		166209231E486CE700FD56B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				166209241E486CE700FD56B6 /* NaverAuth.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		166209251E486CE700FD56B6 /* thirdPartyModule */ = {
+			isa = PBXGroup;
+			children = (
+				166209261E486CE700FD56B6 /* libNaverLogin.a */,
+				166209271E486CE700FD56B6 /* NaverThirdPartyConstantsForApp.h */,
+				166209281E486CE700FD56B6 /* NaverThirdPartyLoginConnection.h */,
+				166209291E486CE700FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.h */,
+				1662092A1E486CE700FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m */,
+			);
+			path = thirdPartyModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		166208D71E483E5800FD56B6 /* LuLu */ = {
+		166209041E486C8E00FD56B6 /* LuLu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 166208ED1E483E5800FD56B6 /* Build configuration list for PBXNativeTarget "LuLu" */;
+			buildConfigurationList = 1662091F1E486C8E00FD56B6 /* Build configuration list for PBXNativeTarget "LuLu" */;
 			buildPhases = (
-				166208D41E483E5800FD56B6 /* Sources */,
-				166208D51E483E5800FD56B6 /* Frameworks */,
-				166208D61E483E5800FD56B6 /* Resources */,
+				166209011E486C8E00FD56B6 /* Sources */,
+				166209021E486C8E00FD56B6 /* Frameworks */,
+				166209031E486C8E00FD56B6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,26 +140,25 @@
 			);
 			name = LuLu;
 			productName = LuLu;
-			productReference = 166208D81E483E5800FD56B6 /* LuLu.app */;
+			productReference = 166209051E486C8E00FD56B6 /* LuLu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		166208D01E483E5800FD56B6 /* Project object */ = {
+		166208FD1E486C8E00FD56B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Sokm83;
 				TargetAttributes = {
-					166208D71E483E5800FD56B6 = {
+					166209041E486C8E00FD56B6 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 166208D31E483E5800FD56B6 /* Build configuration list for PBXProject "LuLu" */;
+			buildConfigurationList = 166209001E486C8E00FD56B6 /* Build configuration list for PBXProject "LuLu" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -111,55 +166,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 166208CF1E483E5800FD56B6;
-			productRefGroup = 166208D91E483E5800FD56B6 /* Products */;
+			mainGroup = 166208FC1E486C8E00FD56B6;
+			productRefGroup = 166209061E486C8E00FD56B6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				166208D71E483E5800FD56B6 /* LuLu */,
+				166209041E486C8E00FD56B6 /* LuLu */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		166208D61E483E5800FD56B6 /* Resources */ = {
+		166209031E486C8E00FD56B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				166208E91E483E5800FD56B6 /* LaunchScreen.storyboard in Resources */,
-				166208E61E483E5800FD56B6 /* Assets.xcassets in Resources */,
-				166208E11E483E5800FD56B6 /* Main.storyboard in Resources */,
+				1662091B1E486C8E00FD56B6 /* LaunchScreen.storyboard in Resources */,
+				166209181E486C8E00FD56B6 /* Assets.xcassets in Resources */,
+				1662092B1E486CE700FD56B6 /* NaverAuth.bundle in Resources */,
+				166209131E486C8E00FD56B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		166208D41E483E5800FD56B6 /* Sources */ = {
+		166209011E486C8E00FD56B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				166208DE1E483E5800FD56B6 /* ViewController.swift in Sources */,
-				166208E41E483E5800FD56B6 /* LuLu.xcdatamodeld in Sources */,
-				166208DC1E483E5800FD56B6 /* AppDelegate.swift in Sources */,
+				166209101E486C8E00FD56B6 /* ViewController.m in Sources */,
+				1662090D1E486C8E00FD56B6 /* AppDelegate.m in Sources */,
+				1662090A1E486C8E00FD56B6 /* main.m in Sources */,
+				1662092D1E486CE700FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m in Sources */,
+				166209161E486C8E00FD56B6 /* LuLu.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		166208DF1E483E5800FD56B6 /* Main.storyboard */ = {
+		166209111E486C8E00FD56B6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				166208E01E483E5800FD56B6 /* Base */,
+				166209121E486C8E00FD56B6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		166208E71E483E5800FD56B6 /* LaunchScreen.storyboard */ = {
+		166209191E486C8E00FD56B6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				166208E81E483E5800FD56B6 /* Base */,
+				1662091A1E486C8E00FD56B6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -167,7 +225,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		166208EB1E483E5800FD56B6 /* Debug */ = {
+		1662091D1E486C8E00FD56B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,13 +269,11 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		166208EC1E483E5800FD56B6 /* Release */ = {
+		1662091E1E486C8E00FD56B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -254,70 +310,75 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		166208EE1E483E5800FD56B6 /* Debug */ = {
+		166209201E486C8E00FD56B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LuLu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LuLu/Naver/thirdPartyModule",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = SugilLee.LuLu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		166208EF1E483E5800FD56B6 /* Release */ = {
+		166209211E486C8E00FD56B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LuLu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LuLu/Naver/thirdPartyModule",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = SugilLee.LuLu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		166208D31E483E5800FD56B6 /* Build configuration list for PBXProject "LuLu" */ = {
+		166209001E486C8E00FD56B6 /* Build configuration list for PBXProject "LuLu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				166208EB1E483E5800FD56B6 /* Debug */,
-				166208EC1E483E5800FD56B6 /* Release */,
+				1662091D1E486C8E00FD56B6 /* Debug */,
+				1662091E1E486C8E00FD56B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		166208ED1E483E5800FD56B6 /* Build configuration list for PBXNativeTarget "LuLu" */ = {
+		1662091F1E486C8E00FD56B6 /* Build configuration list for PBXNativeTarget "LuLu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				166208EE1E483E5800FD56B6 /* Debug */,
-				166208EF1E483E5800FD56B6 /* Release */,
+				166209201E486C8E00FD56B6 /* Debug */,
+				166209211E486C8E00FD56B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		166208E21E483E5800FD56B6 /* LuLu.xcdatamodeld */ = {
+		166209141E486C8E00FD56B6 /* LuLu.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				166208E31E483E5800FD56B6 /* LuLu.xcdatamodel */,
+				166209151E486C8E00FD56B6 /* LuLu.xcdatamodel */,
 			);
-			currentVersion = 166208E31E483E5800FD56B6 /* LuLu.xcdatamodel */;
+			currentVersion = 166209151E486C8E00FD56B6 /* LuLu.xcdatamodel */;
 			path = LuLu.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 166208D01E483E5800FD56B6 /* Project object */;
+	rootObject = 166208FD1E486C8E00FD56B6 /* Project object */;
 }

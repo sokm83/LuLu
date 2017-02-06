@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "166208D71E483E5800FD56B6"
+               BlueprintIdentifier = "166209041E486C8E00FD56B6"
                BuildableName = "LuLu.app"
                BlueprintName = "LuLu"
                ReferencedContainer = "container:LuLu.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "166208D71E483E5800FD56B6"
+            BlueprintIdentifier = "166209041E486C8E00FD56B6"
             BuildableName = "LuLu.app"
             BlueprintName = "LuLu"
             ReferencedContainer = "container:LuLu.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "166208D71E483E5800FD56B6"
+            BlueprintIdentifier = "166209041E486C8E00FD56B6"
             BuildableName = "LuLu.app"
             BlueprintName = "LuLu"
             ReferencedContainer = "container:LuLu.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "166208D71E483E5800FD56B6"
+            BlueprintIdentifier = "166209041E486C8E00FD56B6"
             BuildableName = "LuLu.app"
             BlueprintName = "LuLu"
             ReferencedContainer = "container:LuLu.xcodeproj">
