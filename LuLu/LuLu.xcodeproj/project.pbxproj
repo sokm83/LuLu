@@ -14,9 +14,11 @@
 		166209161E486C8E00FD56B6 /* LuLu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 166209141E486C8E00FD56B6 /* LuLu.xcdatamodeld */; };
 		166209181E486C8E00FD56B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166209171E486C8E00FD56B6 /* Assets.xcassets */; };
 		1662091B1E486C8E00FD56B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166209191E486C8E00FD56B6 /* LaunchScreen.storyboard */; };
-		1662092B1E486CE700FD56B6 /* NaverAuth.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 166209241E486CE700FD56B6 /* NaverAuth.bundle */; };
-		1662092C1E486CE700FD56B6 /* libNaverLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 166209261E486CE700FD56B6 /* libNaverLogin.a */; };
-		1662092D1E486CE700FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1662092A1E486CE700FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m */; };
+		166209391E4983B500FD56B6 /* NaverAuth.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 166209321E4983B500FD56B6 /* NaverAuth.bundle */; };
+		1662093A1E4983B500FD56B6 /* libNaverLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 166209341E4983B500FD56B6 /* libNaverLogin.a */; };
+		1662093B1E4983B500FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166209381E4983B500FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m */; };
+		1662093F1E4983FA00FD56B6 /* NaverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1662093D1E4983FA00FD56B6 /* NaverViewController.m */; };
+		166209461E49B4BA00FD56B6 /* LuLuParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 166209451E49B4BA00FD56B6 /* LuLuParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,12 +33,16 @@
 		166209171E486C8E00FD56B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1662091A1E486C8E00FD56B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1662091C1E486C8E00FD56B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		166209241E486CE700FD56B6 /* NaverAuth.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NaverAuth.bundle; sourceTree = "<group>"; };
-		166209261E486CE700FD56B6 /* libNaverLogin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNaverLogin.a; sourceTree = "<group>"; };
-		166209271E486CE700FD56B6 /* NaverThirdPartyConstantsForApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaverThirdPartyConstantsForApp.h; sourceTree = "<group>"; };
-		166209281E486CE700FD56B6 /* NaverThirdPartyLoginConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaverThirdPartyLoginConnection.h; sourceTree = "<group>"; };
-		166209291E486CE700FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLoginThirdPartyOAuth20InAppBrowserViewController.h; sourceTree = "<group>"; };
-		1662092A1E486CE700FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLoginThirdPartyOAuth20InAppBrowserViewController.m; sourceTree = "<group>"; };
+		166209321E4983B500FD56B6 /* NaverAuth.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NaverAuth.bundle; sourceTree = "<group>"; };
+		166209341E4983B500FD56B6 /* libNaverLogin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNaverLogin.a; sourceTree = "<group>"; };
+		166209351E4983B500FD56B6 /* NaverThirdPartyConstantsForApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaverThirdPartyConstantsForApp.h; sourceTree = "<group>"; };
+		166209361E4983B500FD56B6 /* NaverThirdPartyLoginConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaverThirdPartyLoginConnection.h; sourceTree = "<group>"; };
+		166209371E4983B500FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLoginThirdPartyOAuth20InAppBrowserViewController.h; sourceTree = "<group>"; };
+		166209381E4983B500FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLoginThirdPartyOAuth20InAppBrowserViewController.m; sourceTree = "<group>"; };
+		1662093C1E4983FA00FD56B6 /* NaverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NaverViewController.h; path = Naver/NaverViewController.h; sourceTree = "<group>"; };
+		1662093D1E4983FA00FD56B6 /* NaverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NaverViewController.m; path = Naver/NaverViewController.m; sourceTree = "<group>"; };
+		166209441E49B4BA00FD56B6 /* LuLuParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LuLuParser.h; path = Custom/LuLuParser.h; sourceTree = "<group>"; };
+		166209451E49B4BA00FD56B6 /* LuLuParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LuLuParser.m; path = Custom/LuLuParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1662092C1E486CE700FD56B6 /* libNaverLogin.a in Frameworks */,
+				1662093A1E4983B500FD56B6 /* libNaverLogin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +60,7 @@
 		166208FC1E486C8E00FD56B6 = {
 			isa = PBXGroup;
 			children = (
-				166209221E486CE700FD56B6 /* Naver */,
+				1662092F1E4983B500FD56B6 /* ThirdParty */,
 				166209071E486C8E00FD56B6 /* LuLu */,
 				166209061E486C8E00FD56B6 /* Products */,
 			);
@@ -71,6 +77,8 @@
 		166209071E486C8E00FD56B6 /* LuLu */ = {
 			isa = PBXGroup;
 			children = (
+				166209471E49B4CA00FD56B6 /* Custom */,
+				1662092E1E49835D00FD56B6 /* Naver */,
 				1662090B1E486C8E00FD56B6 /* AppDelegate.h */,
 				1662090C1E486C8E00FD56B6 /* AppDelegate.m */,
 				1662090E1E486C8E00FD56B6 /* ViewController.h */,
@@ -93,34 +101,60 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		166209221E486CE700FD56B6 /* Naver */ = {
+		1662092E1E49835D00FD56B6 /* Naver */ = {
 			isa = PBXGroup;
 			children = (
-				166209231E486CE700FD56B6 /* Resources */,
-				166209251E486CE700FD56B6 /* thirdPartyModule */,
+				1662093C1E4983FA00FD56B6 /* NaverViewController.h */,
+				1662093D1E4983FA00FD56B6 /* NaverViewController.m */,
 			);
 			name = Naver;
-			path = LuLu/Naver;
 			sourceTree = "<group>";
 		};
-		166209231E486CE700FD56B6 /* Resources */ = {
+		1662092F1E4983B500FD56B6 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
-				166209241E486CE700FD56B6 /* NaverAuth.bundle */,
+				166209301E4983B500FD56B6 /* Naver */,
+			);
+			name = ThirdParty;
+			path = LuLu/ThirdParty;
+			sourceTree = "<group>";
+		};
+		166209301E4983B500FD56B6 /* Naver */ = {
+			isa = PBXGroup;
+			children = (
+				166209311E4983B500FD56B6 /* Resources */,
+				166209331E4983B500FD56B6 /* thirdPartyModule */,
+			);
+			path = Naver;
+			sourceTree = "<group>";
+		};
+		166209311E4983B500FD56B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				166209321E4983B500FD56B6 /* NaverAuth.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		166209251E486CE700FD56B6 /* thirdPartyModule */ = {
+		166209331E4983B500FD56B6 /* thirdPartyModule */ = {
 			isa = PBXGroup;
 			children = (
-				166209261E486CE700FD56B6 /* libNaverLogin.a */,
-				166209271E486CE700FD56B6 /* NaverThirdPartyConstantsForApp.h */,
-				166209281E486CE700FD56B6 /* NaverThirdPartyLoginConnection.h */,
-				166209291E486CE700FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.h */,
-				1662092A1E486CE700FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m */,
+				166209341E4983B500FD56B6 /* libNaverLogin.a */,
+				166209351E4983B500FD56B6 /* NaverThirdPartyConstantsForApp.h */,
+				166209361E4983B500FD56B6 /* NaverThirdPartyLoginConnection.h */,
+				166209371E4983B500FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.h */,
+				166209381E4983B500FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m */,
 			);
 			path = thirdPartyModule;
+			sourceTree = "<group>";
+		};
+		166209471E49B4CA00FD56B6 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				166209441E49B4BA00FD56B6 /* LuLuParser.h */,
+				166209451E49B4BA00FD56B6 /* LuLuParser.m */,
+			);
+			name = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,7 +217,7 @@
 			files = (
 				1662091B1E486C8E00FD56B6 /* LaunchScreen.storyboard in Resources */,
 				166209181E486C8E00FD56B6 /* Assets.xcassets in Resources */,
-				1662092B1E486CE700FD56B6 /* NaverAuth.bundle in Resources */,
+				166209391E4983B500FD56B6 /* NaverAuth.bundle in Resources */,
 				166209131E486C8E00FD56B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,9 +230,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				166209101E486C8E00FD56B6 /* ViewController.m in Sources */,
+				1662093F1E4983FA00FD56B6 /* NaverViewController.m in Sources */,
 				1662090D1E486C8E00FD56B6 /* AppDelegate.m in Sources */,
 				1662090A1E486C8E00FD56B6 /* main.m in Sources */,
-				1662092D1E486CE700FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m in Sources */,
+				166209461E49B4BA00FD56B6 /* LuLuParser.m in Sources */,
+				1662093B1E4983B500FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m in Sources */,
 				166209161E486C8E00FD56B6 /* LuLu.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +360,11 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LuLu/Naver/thirdPartyModule",
+					"$(PROJECT_DIR)/LuLu/ThirdParty/Naver/thirdPartyModule",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = SugilLee.LuLu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,6 +380,11 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LuLu/Naver/thirdPartyModule",
+					"$(PROJECT_DIR)/LuLu/ThirdParty/Naver/thirdPartyModule",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = SugilLee.LuLu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -364,6 +410,7 @@
 				166209211E486C8E00FD56B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

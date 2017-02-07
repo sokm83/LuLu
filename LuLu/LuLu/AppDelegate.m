@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "NaverThirdPartyConstantsForApp.h"
+#import "NaverThirdPartyLoginConnection.h"
 
 @interface AppDelegate ()
 
@@ -47,6 +49,43 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
+}
+
+
+// url형식: 서비스앱의UrlScheme://thirdPartyLoginResult?version=2&code=0&authCode=auth코드값
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [self handleWithUrl:url];
+}
+
+#if __IPHONE_OS_VERSION_MAX_ALLOWED > __IPHONE_8_4
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options {
+    return [self handleWithUrl:url];
+}
+#endif
+
+- (BOOL)handleWithUrl:(NSURL *)url {
+    NSLog(@"url : %@", url);
+    NSLog(@"url scheme : %@", url.scheme);
+    NSLog(@"url scheme : %@", kServiceAppUrlScheme);
+    NSLog(@"result - %d", [url.scheme isEqualToString:kServiceAppUrlScheme]);
+    
+    if ([[url scheme] isEqualToString:kServiceAppUrlScheme]) {
+        if ([[url host] isEqualToString:kCheckResultPage]) {
+            
+            // 네이버앱으로부터 전달받은 url값을 NaverThirdPartyLoginConnection의 인스턴스에 전달
+            NaverThirdPartyLoginConnection *thirdConnection = [NaverThirdPartyLoginConnection getSharedInstance];
+            THIRDPARTYLOGIN_RECEIVE_TYPE resultType = [thirdConnection receiveAccessToken:url];
+            
+            if (SUCCESS == resultType) {
+                NSLog(@"Getting auth code from NaverApp success!");
+            } else {
+                // 앱에서 resultType에 따라 실패 처리한다.
+                NSLog(@"ResultType : %d", resultType);
+            }
+        }
+        return YES;
+    }
+    return NO;
 }
 
 
