@@ -18,7 +18,18 @@
 		1662093A1E4983B500FD56B6 /* libNaverLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 166209341E4983B500FD56B6 /* libNaverLogin.a */; };
 		1662093B1E4983B500FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166209381E4983B500FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m */; };
 		1662093F1E4983FA00FD56B6 /* NaverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1662093D1E4983FA00FD56B6 /* NaverViewController.m */; };
-		166209461E49B4BA00FD56B6 /* LuLuParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 166209451E49B4BA00FD56B6 /* LuLuParser.m */; };
+		1662096D1E4ADA9F00FD56B6 /* Logout_Green.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1662096B1E4ADA9F00FD56B6 /* Logout_Green.PNG */; };
+		1662096E1E4ADA9F00FD56B6 /* Login_Green.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1662096C1E4ADA9F00FD56B6 /* Login_Green.PNG */; };
+		166209731E4AE11100FD56B6 /* NaverLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166209711E4AE11100FD56B6 /* NaverLoginViewController.m */; };
+		166209741E4AE11100FD56B6 /* NaverLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 166209721E4AE11100FD56B6 /* NaverLoginViewController.xib */; };
+		166209791E4AEEDF00FD56B6 /* NMapViewerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166209781E4AEEDF00FD56B6 /* NMapViewerSDK.framework */; };
+		1662097D1E4AF00A00FD56B6 /* NaverMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1662097B1E4AF00A00FD56B6 /* NaverMapViewController.m */; };
+		1662097E1E4AF00A00FD56B6 /* NaverMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1662097C1E4AF00A00FD56B6 /* NaverMapViewController.xib */; };
+		166209811E4AF34B00FD56B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166209801E4AF34B00FD56B6 /* CoreGraphics.framework */; };
+		166209831E4AF35600FD56B6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166209821E4AF35600FD56B6 /* QuartzCore.framework */; };
+		166209851E4AF35F00FD56B6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166209841E4AF35F00FD56B6 /* CoreLocation.framework */; };
+		166209871E4AF36D00FD56B6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 166209861E4AF36D00FD56B6 /* libsqlite3.0.tbd */; };
+		166209891E4AF37500FD56B6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166209881E4AF37500FD56B6 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +52,20 @@
 		166209381E4983B500FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLoginThirdPartyOAuth20InAppBrowserViewController.m; sourceTree = "<group>"; };
 		1662093C1E4983FA00FD56B6 /* NaverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NaverViewController.h; path = Naver/NaverViewController.h; sourceTree = "<group>"; };
 		1662093D1E4983FA00FD56B6 /* NaverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NaverViewController.m; path = Naver/NaverViewController.m; sourceTree = "<group>"; };
-		166209441E49B4BA00FD56B6 /* LuLuParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LuLuParser.h; path = Custom/LuLuParser.h; sourceTree = "<group>"; };
-		166209451E49B4BA00FD56B6 /* LuLuParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LuLuParser.m; path = Custom/LuLuParser.m; sourceTree = "<group>"; };
+		1662096B1E4ADA9F00FD56B6 /* Logout_Green.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logout_Green.PNG; path = Naver/Logout_Green.PNG; sourceTree = "<group>"; };
+		1662096C1E4ADA9F00FD56B6 /* Login_Green.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Login_Green.PNG; path = Naver/Login_Green.PNG; sourceTree = "<group>"; };
+		166209701E4AE11100FD56B6 /* NaverLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NaverLoginViewController.h; path = Naver/NaverLoginViewController.h; sourceTree = "<group>"; };
+		166209711E4AE11100FD56B6 /* NaverLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NaverLoginViewController.m; path = Naver/NaverLoginViewController.m; sourceTree = "<group>"; };
+		166209721E4AE11100FD56B6 /* NaverLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NaverLoginViewController.xib; path = Naver/NaverLoginViewController.xib; sourceTree = "<group>"; };
+		166209781E4AEEDF00FD56B6 /* NMapViewerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NMapViewerSDK.framework; sourceTree = "<group>"; };
+		1662097A1E4AF00A00FD56B6 /* NaverMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NaverMapViewController.h; path = Naver/NaverMapViewController.h; sourceTree = "<group>"; };
+		1662097B1E4AF00A00FD56B6 /* NaverMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NaverMapViewController.m; path = Naver/NaverMapViewController.m; sourceTree = "<group>"; };
+		1662097C1E4AF00A00FD56B6 /* NaverMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NaverMapViewController.xib; path = Naver/NaverMapViewController.xib; sourceTree = "<group>"; };
+		166209801E4AF34B00FD56B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		166209821E4AF35600FD56B6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		166209841E4AF35F00FD56B6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		166209861E4AF36D00FD56B6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		166209881E4AF37500FD56B6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +73,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				166209891E4AF37500FD56B6 /* SystemConfiguration.framework in Frameworks */,
+				166209871E4AF36D00FD56B6 /* libsqlite3.0.tbd in Frameworks */,
+				166209851E4AF35F00FD56B6 /* CoreLocation.framework in Frameworks */,
+				166209831E4AF35600FD56B6 /* QuartzCore.framework in Frameworks */,
+				166209811E4AF34B00FD56B6 /* CoreGraphics.framework in Frameworks */,
 				1662093A1E4983B500FD56B6 /* libNaverLogin.a in Frameworks */,
+				166209791E4AEEDF00FD56B6 /* NMapViewerSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 				1662092F1E4983B500FD56B6 /* ThirdParty */,
 				166209071E486C8E00FD56B6 /* LuLu */,
 				166209061E486C8E00FD56B6 /* Products */,
+				1662097F1E4AF34B00FD56B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,8 +134,15 @@
 		1662092E1E49835D00FD56B6 /* Naver */ = {
 			isa = PBXGroup;
 			children = (
+				1662096F1E4ADAC700FD56B6 /* Resource */,
 				1662093C1E4983FA00FD56B6 /* NaverViewController.h */,
 				1662093D1E4983FA00FD56B6 /* NaverViewController.m */,
+				166209701E4AE11100FD56B6 /* NaverLoginViewController.h */,
+				166209711E4AE11100FD56B6 /* NaverLoginViewController.m */,
+				166209721E4AE11100FD56B6 /* NaverLoginViewController.xib */,
+				1662097A1E4AF00A00FD56B6 /* NaverMapViewController.h */,
+				1662097B1E4AF00A00FD56B6 /* NaverMapViewController.m */,
+				1662097C1E4AF00A00FD56B6 /* NaverMapViewController.xib */,
 			);
 			name = Naver;
 			sourceTree = "<group>";
@@ -122,6 +159,7 @@
 		166209301E4983B500FD56B6 /* Naver */ = {
 			isa = PBXGroup;
 			children = (
+				166209751E4AE3B200FD56B6 /* Frameworks */,
 				166209311E4983B500FD56B6 /* Resources */,
 				166209331E4983B500FD56B6 /* thirdPartyModule */,
 			);
@@ -151,10 +189,37 @@
 		166209471E49B4CA00FD56B6 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
-				166209441E49B4BA00FD56B6 /* LuLuParser.h */,
-				166209451E49B4BA00FD56B6 /* LuLuParser.m */,
 			);
 			name = Custom;
+			sourceTree = "<group>";
+		};
+		1662096F1E4ADAC700FD56B6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1662096B1E4ADA9F00FD56B6 /* Logout_Green.PNG */,
+				1662096C1E4ADA9F00FD56B6 /* Login_Green.PNG */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		166209751E4AE3B200FD56B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				166209781E4AEEDF00FD56B6 /* NMapViewerSDK.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		1662097F1E4AF34B00FD56B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				166209881E4AF37500FD56B6 /* SystemConfiguration.framework */,
+				166209861E4AF36D00FD56B6 /* libsqlite3.0.tbd */,
+				166209841E4AF35F00FD56B6 /* CoreLocation.framework */,
+				166209821E4AF35600FD56B6 /* QuartzCore.framework */,
+				166209801E4AF34B00FD56B6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +280,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1662096E1E4ADA9F00FD56B6 /* Login_Green.PNG in Resources */,
 				1662091B1E486C8E00FD56B6 /* LaunchScreen.storyboard in Resources */,
 				166209181E486C8E00FD56B6 /* Assets.xcassets in Resources */,
+				1662096D1E4ADA9F00FD56B6 /* Logout_Green.PNG in Resources */,
+				1662097E1E4AF00A00FD56B6 /* NaverMapViewController.xib in Resources */,
+				166209741E4AE11100FD56B6 /* NaverLoginViewController.xib in Resources */,
 				166209391E4983B500FD56B6 /* NaverAuth.bundle in Resources */,
 				166209131E486C8E00FD56B6 /* Main.storyboard in Resources */,
 			);
@@ -230,10 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				166209101E486C8E00FD56B6 /* ViewController.m in Sources */,
+				166209731E4AE11100FD56B6 /* NaverLoginViewController.m in Sources */,
 				1662093F1E4983FA00FD56B6 /* NaverViewController.m in Sources */,
 				1662090D1E486C8E00FD56B6 /* AppDelegate.m in Sources */,
+				1662097D1E4AF00A00FD56B6 /* NaverMapViewController.m in Sources */,
 				1662090A1E486C8E00FD56B6 /* main.m in Sources */,
-				166209461E49B4BA00FD56B6 /* LuLuParser.m in Sources */,
 				1662093B1E4983B500FD56B6 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m in Sources */,
 				166209161E486C8E00FD56B6 /* LuLu.xcdatamodeld in Sources */,
 			);
@@ -355,15 +425,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LuLu/ThirdParty/Naver/Frameworks",
+				);
 				INFOPLIST_FILE = LuLu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LuLu/Naver/thirdPartyModule",
 					"$(PROJECT_DIR)/LuLu/ThirdParty/Naver/thirdPartyModule",
+					"\"$(SRCROOT)/LuLu/ThirdParty/Naver/Frameworks/NMapViewerSDK.framework/Headers\"",
+					/usr/include/libxml2,
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
+					"-lxml2",
 					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = SugilLee.LuLu;
@@ -375,15 +452,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LuLu/ThirdParty/Naver/Frameworks",
+				);
 				INFOPLIST_FILE = LuLu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LuLu/Naver/thirdPartyModule",
 					"$(PROJECT_DIR)/LuLu/ThirdParty/Naver/thirdPartyModule",
+					"\"$(SRCROOT)/LuLu/ThirdParty/Naver/Frameworks/NMapViewerSDK.framework/Headers\"",
+					/usr/include/libxml2,
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
+					"-lxml2",
 					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = SugilLee.LuLu;

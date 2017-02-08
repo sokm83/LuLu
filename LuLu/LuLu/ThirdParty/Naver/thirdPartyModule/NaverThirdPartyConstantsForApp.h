@@ -31,9 +31,3 @@ typedef enum {
     NEED_REFRESH_ACCESS_TOKEN,
     OK
 } OAuthLoginState;
-
-#define kServiceAppUrlScheme    @"Sokm83-LuLu"
-
-#define kClientID               @"MSUIqUvX8GVC6WtyidZN"
-#define kClientSecret           @"bd5_19aRtv"
-#define kServiceAppName         @"LuLu"

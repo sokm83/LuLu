@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "NaverThirdPartyConstantsForApp.h"
+#import "NaverViewController.h"
 #import "NaverThirdPartyLoginConnection.h"
 
 @interface AppDelegate ()

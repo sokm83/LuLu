@@ -7,16 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NaverThirdPartyLoginConnection.h"
 
-@interface NaverViewController : UIViewController <NaverThirdPartyLoginConnectionDelegate>
-{
-    NaverThirdPartyLoginConnection *_naverLoginConn;
-}
+#define kServiceAppUrlScheme    @"Sokm83-LuLu"
 
-@property (nonatomic, strong) IBOutlet UILabel *statusLabel;
-@property (nonatomic, strong) IBOutlet UIButton *loginBtn;
+#define kClientID               @"MSUIqUvX8GVC6WtyidZN"
+#define kClientSecret           @"bd5_19aRtv"
+#define kServiceAppName         @"LuLu"
 
-- (IBAction)loginBtnClicked:(id)sender;
+@interface NaverViewController : UITableViewController <UITableViewDelegate>
 
 @end
